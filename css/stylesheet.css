@@ -1,0 +1,1033 @@
+body
+{
+    overflow: hidden;
+    background-image: url("../photos/Untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.fonts 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 77px;
+    text-align: left;
+}
+form
+{
+    text-align: center;
+}
+
+.container
+{
+    border: 2px black;
+    border-style: solid;
+    height: 730px;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    
+}
+
+#uploadbox
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 2px black;
+    border-style: solid;
+    width: 350px;
+    outline: none;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+::-webkit-file-upload-button
+{
+    color:black;
+    background: white;
+    padding: 13px;
+    border: 1px, black;
+    border-style: solid;
+    border-radius: 9px;
+    margin-left: 244px;
+    box-shadow: 1px 0 1px 1px #ffffff;
+    outline: none;
+}
+
+
+.txtboxes
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 346px;
+    height: 26px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.descriptionbox
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 346px;
+    height: 26px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+#submitbutton
+{
+    color:white;
+    background: black;
+    padding: 13px;
+    border: none;
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    outline: none;
+    width: 356px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+#profile-pic
+{
+    border-radius: 100%;
+    border: 3px black;
+    border-style: solid;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 25px;
+    margin-right: 350px;
+}
+
+#yourname
+{
+    position: relative;
+    top: 115px;
+    margin: -25px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#yourdescription
+{
+    position: relative;
+    top: 125px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type="file"]
+{
+    display: none;
+}
+
+label
+{
+    position: relative;
+    left: 100px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
+    top:6px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+
+.divbox
+{
+    display: inline-block;
+    color:black;
+    background: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    width: 350px;
+    height: 28px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.circle
+{
+    border-radius: 100%;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: gold;
+    position: relative;
+    width: 25px;
+    height: 40px;
+    padding: 15px;
+    bottom: 70px;
+    left: -35px;
+    transform: rotate(35deg);
+}
+
+@media (max-height:800px)
+{
+    .container
+{
+    border: 2px black;
+    border-style: solid;
+    height: 650px;
+    width: 450px;
+    bottom: 25px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.circle
+{
+    border-radius: 100%;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: gold;
+    position: relative;
+    width: 15px;
+    height: 25px;
+    padding: 15px;
+    bottom: 85px;
+    left: -35px;
+    transform: rotate(35deg);
+}
+
+.txtboxes
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 346px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.fonts 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.divbox
+{
+    display: inline-block;
+    color:black;
+    background: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    width: 350px;
+    height: 19px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+#profile-pic
+{
+    border-radius: 100%;
+    border: 3px black;
+    border-style: solid;
+    width: 75px;
+    height: 75px;
+    bottom: 15px;
+    left: 45px;
+    margin-right: 350px;
+    position: relative;
+}
+
+#submitbutton
+{
+    color:white;
+    background: black;
+    padding: 4px;
+    border: none;
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    outline: none;
+    width: 356px;
+    height: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+}
+
+#yourname
+{
+    position: relative;
+    top: 65px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#yourdescription
+{
+    position: relative;
+    top: 75px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body
+{
+    overflow: hidden;
+    background-image: url("../photos/Untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label
+{
+    position: relative;
+    left: 100px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    top:1px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+}
+
+@media (max-height:950px)
+{
+    .container
+{
+    border: 2px black;
+    border-style: solid;
+    height: 628px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    left: 46px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle
+{
+    border-radius: 100%;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: gold;
+    position: relative;
+    width: 15px;
+    height: 25px;
+    padding: 15px;
+    bottom: 85px;
+    left: -35px;
+    transform: rotate(35deg);
+}
+
+.txtboxes
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.fonts 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.divbox
+{
+    color:black;
+    background: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    width: 304px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+}
+
+#profile-pic
+{
+    border-radius: 100%;
+    border: 3px black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    margin-right: 350px;
+    position: relative;
+}
+
+#submitbutton
+{
+    color:white;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    outline: none;
+    width: 310px;
+    height: 28px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+#yourname
+{
+    position: relative;
+    top: 45px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#yourdescription
+{
+    position: relative;
+    top: 55px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body
+{
+    overflow: hidden;
+    background-image: url("../photos/Untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label
+{
+    position: relative;
+    left: 100px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+
+.descriptionbox
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 22px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+label
+{
+    position: relative;
+    left: 76px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    top: 2px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+}
+
+@media (max-height:920px)
+{
+    .container
+{
+    border: 2px black;
+    border-style: solid;
+    height: 628px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    left: 46px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle
+{
+    border-radius: 100%;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: gold;
+    position: relative;
+    width: 15px;
+    height: 25px;
+    padding: 15px;
+    bottom: 85px;
+    left: -35px;
+    transform: rotate(35deg);
+    display: none;
+}
+
+.txtboxes
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.fonts 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.divbox
+{
+    color:black;
+    background: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    width: 304px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+}
+
+#profile-pic
+{
+    border-radius: 100%;
+    border: 3px black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    margin-right: 350px;
+    bottom: 18px;
+    position: relative;
+}
+
+#submitbutton
+{
+    color:white;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    outline: none;
+    width: 310px;
+    padding: 5px;
+    height: 28px;
+    font-size: 12px;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+#yourname
+{
+    position: relative;
+    top: 45px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#yourdescription
+{
+    position: relative;
+    top: 55px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body
+{
+    overflow: hidden;
+    background-image: url("../photos/Untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label
+{
+    position: relative;
+    left: 100px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+
+.descriptionbox
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 22px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+label
+{
+    position: relative;
+    left: 76px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    top: 2px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+}
+
+@media (max-height:670px)
+{
+    .container
+{
+    border: 2px black;
+    border-style: solid;
+    height: 628px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    left: 75px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle
+{
+    border-radius: 100%;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: gold;
+    position: relative;
+    width: 15px;
+    height: 25px;
+    padding: 15px;
+    bottom: 85px;
+    left: -35px;
+    transform: rotate(35deg);
+    display: none;
+}
+
+.txtboxes
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.fonts 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.divbox
+{
+    color:black;
+    background: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    width: 304px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+}
+
+#profile-pic
+{
+    border-radius: 100%;
+    border: 3px black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    left: 72px;
+    margin-right: 350px;
+    bottom: 18px;
+    position: relative;
+}
+
+#submitbutton
+{
+    color:white;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    outline: none;
+    width: 310px;
+    padding: 5px;
+    height: 28px;
+    font-size: 12px;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+#yourname
+{
+    position: relative;
+    top: 45px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#yourdescription
+{
+    position: relative;
+    top: 55px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body
+{
+    overflow: hidden;
+    background-image: url("../photos/Untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label
+{
+    position: relative;
+    left: 100px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+
+.descriptionbox
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 22px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+label
+{
+    position: relative;
+    left: 76px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    top: 2px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+}
+
+@media (max-height:720px)
+{
+    .container
+{
+    border: 2px black;
+    border-style: solid;
+    height: 608px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    left: 75px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle
+{
+    border-radius: 100%;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    background-color: gold;
+    position: relative;
+    width: 15px;
+    height: 25px;
+    padding: 15px;
+    bottom: 85px;
+    left: -35px;
+    transform: rotate(35deg);
+    display: none;
+}
+
+.txtboxes
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+.fonts 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.divbox
+{
+    color:black;
+    background: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    width: 304px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+}
+
+#profile-pic
+{
+    border-radius: 100%;
+    border: 3px black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    left: 72px;
+    margin-right: 350px;
+    bottom: 22px;
+    position: relative;
+}
+
+#submitbutton
+{
+    color:white;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    border: 3px black;
+    border-style: solid;
+    outline: none;
+    width: 310px;
+    padding: 3px;
+    height: 21px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+#yourname
+{
+    position: relative;
+    top: 45px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#yourdescription
+{
+    position: relative;
+    top: 55px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body
+{
+    background-image: url("../photos/Untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label
+{
+    position: relative;
+    left: 100px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+
+.descriptionbox
+{
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    border: 3px black;
+    border-style: solid;
+    width: 300px;
+    height: 22px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+label
+{
+    position: relative;
+    left: 76px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1px;
+    top: 2px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+}

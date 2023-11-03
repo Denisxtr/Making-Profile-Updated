@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="axios.js" defer></script>
+</head>
+
+<body>
+    <form>
+        <h2 id="yourname">Denis Kasaboglu</h2>
+        <h3 id="yourdescription">Software engineer student</h3>
+        <img src="photos/nophoto.png" id="profile-pic">
+        <div class="container">
+            <h2 class="fonts">Image</h2>
+            <div class="divbox">
+                <input type="file" accept="image/*" id="uploadbtn" required>
+                <label for="uploadbtn">Upload</label>
+            </div>
+            <h3 class="fonts">Name</h3>
+            <input type="text" name="Name" id="name" class="txtboxes" required>
+
+            <h3 class="fonts">Email</h3>
+            <input type="email" name="email" id="mail" class="txtboxes" required>
+
+            <h3 class="fonts">Description</h3>
+            <input type="text" name="Description" id="desc" class="descriptionbox" required>
+
+            <h3 class="fonts">Age</h3>
+            <input type="number" name="Age" id="age" class="txtboxes" min="1" max="99" required>
+
+            <h3 class="fonts">Hobbie</h3>
+            <input type="text" name="Hobbies" id="hobbie" class="txtboxes" required>
+            <input type="submit" value="Submit" id="submitbutton" onclick="">
+        </div>
+        <div class="circle"></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
