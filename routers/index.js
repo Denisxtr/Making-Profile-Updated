@@ -1,4 +1,4 @@
-const { postUser, getUser, getOneUser, putUser, deleteUser } = require("../controller/routes");
+/*const { postUser, getUser, getOneUser, putUser, deleteUser } = require("../controller/routes");
 
 const router = express.Router();
 
@@ -18,3 +18,4 @@ router.delete('/users/:id', deleteUser)
 
 
 module.exports= router
+*/
